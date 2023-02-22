@@ -1,6 +1,7 @@
 /* Custom Properties */
 :root {
-  --clr-accent: rgba(205,207,195, 40%)
+  --clr-accent-tp: rgba(205,207,195, 40%);
+  --clr-accent: rgb(209,217,198);
 }
 
 * {
@@ -11,7 +12,7 @@
 }
 
 #navbar {
-  background-color: var(--clr-accent); /* Green background color */
+  background-color: var(--clr-accent-tp); /* Green background color */
   position: fixed; /* Make it stick/fixed */
   top: -200px; /* Hide the navbar 50 px outside of the top view */
   width: 100%; /* Full width */
@@ -114,10 +115,37 @@
 /* Start of About Us */
 .about-us{
   height: 50em;
-  border: red solid;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.about-us img {
+  width: 50em;
+  padding: 5em;
+}
+
+.about-left-side {
+  width: 50%;
+}
+
+.about-right-side {
+  width: 50%;
+}
+
+.about-right-side h3 {
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+
+.about-right-side p {
+  width: 35em;
+  font-size: 1.1em;
+}
+
+.about-right-side button {
+  margin-top: 2em;
+  background-color: var(--clr-accent);
 }
 
 /* End of about Us */
