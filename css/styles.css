@@ -90,6 +90,25 @@
 
 
 /* End of Home */
+.quote-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--clr-accent);
+  color: black;
+  height: 15em;
+  text-align: center;
+}
+
+.quote-banner p {
+  color: black;
+}
+
+/* banner */
+
+
+/* End of banner */
 
 
 /* Start of About Us */
