@@ -1,0 +1,33 @@
+:root {
+  --clr-accent: rgba(205,207,195)
+}
+
+#navbar {
+  background-color: var(--clr-accent); /* Green background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+
+/* End of Nav */
+
+/* Start of Home */
+.home {
+  height: 100vh;
+  border: solid black ;
+}
+
+
+
+/* End of Home */
+
+
+/* Start of About Us */
+.about-us{
+  height: 100vh;
+  border: red solid;
+}
+
+/* End of about Us */
