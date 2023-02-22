@@ -1,5 +1,5 @@
 :root {
-  --clr-accent: rgba(205,207,195)
+  --clr-accent: rgba(205,207,195, 40%)
 }
 
 * {
@@ -10,7 +10,7 @@
 #navbar {
   background-color: var(--clr-accent); /* Green background color */
   position: fixed; /* Make it stick/fixed */
-  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  top: -200px; /* Hide the navbar 50 px outside of the top view */
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
@@ -21,12 +21,16 @@
   align-items: center;
 }
 
-.nav-left {
+.nav-left img{
+  width: 15em;
 
 }
 
 .nav-mid a{
   margin: 1em;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .nav-right {
@@ -45,6 +49,9 @@
 
 /* Start of Home */
 .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   border: solid black ;
 }
