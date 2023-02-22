@@ -70,7 +70,7 @@
   background-image: url(/assets/imgs/home-bg.jpg);
 }
 
-.hero h1, p{
+.hero h1, .hero p{
   text-align: center;
   color: white;
   margin-top: 4em;
@@ -90,6 +90,9 @@
 
 
 /* End of Home */
+
+
+/* banner */
 .quote-banner {
   display: flex;
   justify-content: center;
@@ -105,17 +108,38 @@
   color: black;
 }
 
-/* banner */
-
-
 /* End of banner */
 
 
 /* Start of About Us */
 .about-us{
-  height: 100vh;
+  height: 50em;
   border: red solid;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* End of about Us */
+
+/* Start of services */
+
+/* End of services */
+
+
+/* Our work */
+
+/* end of work */
+
+/* Contact */
+
+/* end of contact */
+
+
+/* Footer */
+
+
+/* End of Footer */
+
+
+/* --------- END OF MAIN PAGE --------------- */
