@@ -34,14 +34,20 @@
 }
 
 .nav-right {
+  display: flex;
+  align-items: center;
+}
 
+.nav-right img {
+  margin-right: 1em;
 }
 
 .nav-right button {
   color: white;
   background-color: black;
-  padding: 1em;
+  padding: 1.5em;
   border-radius: 0.5em;
+  
 }
 
 
