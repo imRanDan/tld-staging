@@ -10,6 +10,11 @@
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
+.inner-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
 
 /* End of Nav */
 
