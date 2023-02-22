@@ -1,3 +1,4 @@
+/* Custom Properties */
 :root {
   --clr-accent: rgba(205,207,195, 40%)
 }
@@ -5,6 +6,8 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Libre Baskerville', serif;
+  scroll-behavior: smooth;
 }
 
 #navbar {
@@ -13,6 +16,7 @@
   top: -200px; /* Hide the navbar 50 px outside of the top view */
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  padding: 1em;
 }
 
 .inner-nav {
@@ -33,6 +37,10 @@
   text-decoration: none;
 }
 
+.nav-mid a:hover {
+  color: white;
+}
+
 .nav-right {
   display: flex;
   align-items: center;
@@ -47,7 +55,7 @@
   background-color: black;
   padding: 1.5em;
   border-radius: 0.5em;
-  
+
 }
 
 
@@ -59,7 +67,24 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  border: solid black ;
+  background-image: url(/assets/imgs/home-bg.jpg);
+}
+
+.hero h1, p{
+  text-align: center;
+  color: white;
+  margin-top: 4em;
+  text-shadow: 1px 1px 1px black;
+}
+
+.hero h1 {
+  font-size: 3em;
+  width: 20em;
+}
+
+.hero p {
+  font-size: 1.5em;
+  width: 40em;
 }
 
 
@@ -71,6 +96,7 @@
 .about-us{
   height: 100vh;
   border: red solid;
+
 }
 
 /* End of about Us */
