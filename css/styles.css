@@ -2,6 +2,11 @@
   --clr-accent: rgba(205,207,195)
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 #navbar {
   background-color: var(--clr-accent); /* Green background color */
   position: fixed; /* Make it stick/fixed */
@@ -13,6 +18,26 @@
 .inner-nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+.nav-left {
+
+}
+
+.nav-mid a{
+  margin: 1em;
+}
+
+.nav-right {
+
+}
+
+.nav-right button {
+  color: white;
+  background-color: black;
+  padding: 1em;
+  border-radius: 0.5em;
 }
 
 
