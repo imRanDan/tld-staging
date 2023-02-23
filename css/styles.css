@@ -168,6 +168,33 @@
   align-items: center;
   background-color: var(--clr-accent);
 }
+
+.services-left {
+  width: 60%;
+  padding: 7em;
+}
+
+.services-left h3 {
+  font-size: 2em;
+}
+
+.services-left p {
+  width: 35em;
+  font-size: 1.1em;
+}
+
+.services-left button {
+  margin-top: 2em;
+  background-color: black;
+  color: var(--clr-accent);
+  padding: 1.5em;
+  border-radius: 0.7em;
+  box-shadow: none;
+}
+
+.services-right {
+  width: 40%;
+}
 /* End of services */
 
 
