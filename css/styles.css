@@ -292,3 +292,18 @@ footer img {
 
 
 /* --------- END OF MAIN PAGE --------------- */
+
+
+/* -------ABOUT US HTML ----------- */
+
+.about-faiza {
+  height: 100vh;
+  outline: 1px solid red;
+}
+
+
+
+.about-amna {
+  height: 100vh;
+  outline: 1px solid black;
+}
