@@ -235,7 +235,30 @@
 /* end of work */
 
 /* Contact */
+.contact {
+  background-image: url(/assets/imgs/contact-us-bg.avif);
+  height: 20em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact h3 {
+  color: white;
+}
+
+.contact p {
+  color: white;
+}
+
+.contact button {
+  
+}
 /* end of contact */
 
 
