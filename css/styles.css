@@ -237,7 +237,7 @@
 /* Contact */
 .contact {
   background-image: url(/assets/imgs/contact-us-bg.avif);
-  height: 20em;
+  height: 25em;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -257,13 +257,30 @@
 }
 
 .contact button {
-  
+  background-color: var(--clr-accent);
+  margin-top: 2em;
+  padding: 1.5em;
+  border-radius: 0.7em;
+  box-shadow: none;
 }
 /* end of contact */
 
 
 /* Footer */
+footer {
+  height: 10em;
+  background-color: var(--clr-accent);
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  text-transform: uppercase;
+  margin: 1em;
+  color: black;
+}
 
 /* End of Footer */
 
