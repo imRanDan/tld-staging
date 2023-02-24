@@ -363,7 +363,90 @@ about-faiza p {
 
 
 /* -------Services HTML ----------- */
+.init-consult {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 10rem auto 0 auto;
 
+  padding-top: 4em;
+}
+
+.init-consult img {
+  width: 100%;
+}
+
+.init-consult-text {
+  padding: 2em;
+}
+
+.init-consult h3 {
+font-size: 3em;
+}
+
+.init-consult p {
+  font-size: 1em;
+}
+
+.second-consult {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 10rem auto 0 auto;
+}
+
+.second-consult img {
+  width: 100%;
+}
+
+.second-consult-text {
+  padding: 2em;
+}
+
+.second-consult h3 {
+  font-size: 3em;
+}
+
+.second-consult p {
+  font-size: 1em;
+}
+
+.second-consult button {
+  margin-top: 2em;
+  background-color: var(--clr-accent);
+  color: black;
+  padding: 1.5em;
+  border-radius: 0.7em;
+  box-shadow: none;
+}
+
+.third-consult {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 10rem auto 0 auto;
+  
+  padding-bottom: 4em;
+}
+
+.third-consult img {
+  width: 100%;
+}
+
+.third-consult-text {
+  padding: 2em;
+}
+
+.third-consult h3 {
+  font-size: 3em;
+}
+
+.third-consult p {
+  font-size: 1em;
+}
 
 
 
