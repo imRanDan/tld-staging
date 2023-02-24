@@ -464,8 +464,9 @@ font-size: 3em;
 
 
 .portfolio-square {
-  height: 1em;
-  width: 1em;
+  height: 50px;
+  width: 50px;
+  background-color: red;
   outline: solid 1px red;
 }
 
