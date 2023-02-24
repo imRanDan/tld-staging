@@ -298,13 +298,89 @@ footer img {
 /* -------ABOUT US HTML ----------- */
 
 .about-faiza {
-  height: 100vh;
-  outline: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 10rem auto 0 auto;
 }
 
+.about-faiza-text {
+  padding: 2em;
+}
+
+.about-faiza h3 {
+  font-size: 3em;
+}
+
+about-faiza p {
+  font-size: 1em;
+}
+
+.about-faiza img {
+  width: 100%;
+}
 
 
 .about-amna {
-  height: 100vh;
-  outline: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 10rem auto 0 auto;
 }
+
+.about-amna-text {
+  padding: 2em;
+}
+
+.about-amna img {
+  width: 100%;
+  padding: 1em;
+}
+
+.about-amna h3 {
+  font-size: 3em;
+}
+
+.about-amna p {
+  font-size: 1em;
+}
+
+.csp-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.csp-banner img {
+  width: 15%;
+  padding: 4em;
+}
+
+
+/* --------- END OF About us --------------- */
+
+
+/* -------Services HTML ----------- */
+
+
+
+
+/* --------- END OF Services --------------- */
+
+
+/* -------Portfolio HTML ----------- */
+
+/* --------- END OF Portfolio --------------- */
+
+
+/* -------FAQS HTML ----------- */
+
+/* --------- END OF FAQs --------------- */
+
+
+/* -------Contact us HTML ----------- */
+
+
+/* -------END OF Contact us HTML ----------- */
