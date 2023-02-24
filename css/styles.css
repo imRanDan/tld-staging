@@ -457,7 +457,7 @@ font-size: 3em;
 .projects-display {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 3em;
+  padding: 12em 3em 3em 3em;
 }
 
 .portfolio-square img{
