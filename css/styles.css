@@ -455,19 +455,18 @@ font-size: 3em;
 
 /* -------Portfolio HTML ----------- */
 .projects-display {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3em;
 }
 
-
-
-
-
 .portfolio-square {
-  height: 50px;
-  width: 50px;
-  background-color: red;
-  outline: solid 1px red;
+
+}
+
+.portfolio-square img{
+  width: 100%;
+  padding: 1em;
 }
 
 
