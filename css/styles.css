@@ -454,6 +454,21 @@ font-size: 3em;
 
 
 /* -------Portfolio HTML ----------- */
+.projects-display {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+.portfolio-square {
+  height: 1em;
+  width: 1em;
+  outline: solid 1px red;
+}
+
 
 /* --------- END OF Portfolio --------------- */
 
