@@ -541,6 +541,16 @@ font-size: 3em;
 
 
 /* -------Contact us HTML ----------- */
+.empty-space-banner {
+  padding-top: 10em;
+}
 
+.info-left {
+
+}
+
+.info-left img{
+  width: 35%;
+}
 
 /* -------END OF Contact us HTML ----------- */
