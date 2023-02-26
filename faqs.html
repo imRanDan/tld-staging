@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
-  
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 <body>
   <header id="navbar">
@@ -41,15 +41,35 @@
   </header>
 
 <body>
+
+  <section class="faq-banner-title">
+    <h1>Frequently Asked Questions</h1>
+  </section>
+
+
+  <section class="carousel-faq js-flickity" data-flickity-options='{ "wrapAround": true }'>
+    <div class="gallery-square">
+      <div class="gallery-square-text">
+        <h2>Why Stage?</h2>
+        <p>Staging is all about maximizing your profits and minimizing time on market.</p>
+  
+        <p>Staged homes spend 73% less time on the market, allowing you to sell faster than other </p>
+      </div>
+
+    
+    </div>
+    <div class="gallery-square"></div>
+    <div class="gallery-square"></div>
+    <div class="gallery-square"></div>
+    <div class="gallery-square"></div>
+    <div class="gallery-square"></div>
+    <div class="gallery-square"></div>
+  </section>
     
 
 
 
-
-
-
-
-  <footer>
+  <footer class="footer-faq">
     <div footer-link>
       <a href="./index.html">home</a>
       <a href="./about.html">about</a>
@@ -67,5 +87,6 @@
   
   <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   <script src="./js/scripts.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
