@@ -196,33 +196,29 @@ box-shadow: none;
 
 /* Our work */
 .portfolio {
-  height: 40em;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  width: 80%;
+  margin: 10rem auto 0 auto;
+  padding-bottom: 5.5em;
 }
 
-.portfolio-left {
-  width: 50%;
+.portfolio-text {
+  padding: 5em;
 }
 
-.portfolio-right {
-  width: 50%;
-  padding-left: 20em;
-}
-
-.portfolio-right h3 {
+.portfolio-text h3{
   font-size: 2em;
   margin-bottom: 1em;
 }
 
-.portfolio-right p {
+.portfolio-text p {
   font-size: 1.1em;
   margin-bottom: 1em;
 }
 
-.portfolio-right button {
+.portfolio-text button {
   margin-top: 2em;
   background-color: var(--clr-accent);
   padding: 1.5em;
