@@ -471,10 +471,12 @@ font-size: 3em;
 
 /* -------FAQS HTML ----------- */
 .faq-banner-title {
+  margin-top: 10em;
   height: 10em;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .faq-banner-title h1 {
@@ -482,31 +484,48 @@ font-size: 3em;
 }
 
 .carousel-faq {
-  background: #eee;
+  background: white;
   margin-top: 10em;
 }
 
 .gallery-square {
   width: 66%;
   height: 25em;
-  margin-right: 10px;
-  background: var(--clr-accent);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  margin-right: 1em;
+  background: #eee;
+
 }
 
 .gallery-square:before {
   display: block;
-  text-align: center;
   line-height: 200px;
   font-size: 80px;
   color: white;
 }
 
+
+.gallery-square-text {
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
 .gallery-square-text p {
   margin-top: 2em;
+  width: 45%;
+}
+
+.gallery-square-text button {
+  color: white;
+  margin-top: 1em;
+  background-color: black;
+  padding: 1.5em;
+  border-radius: 0.5em;
+  box-shadow: none;
 }
 
 .footer-faq {
