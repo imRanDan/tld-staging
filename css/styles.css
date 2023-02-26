@@ -528,6 +528,16 @@ font-size: 3em;
   box-shadow: none;
 }
 
+.gallery-square-text ol {
+  text-align: left;
+  margin-top: 1em;
+}
+
+.gallery-square-text ol li {
+  margin: 0.5em;
+}
+
+
 .footer-faq {
   margin-top: 23em;
 }
