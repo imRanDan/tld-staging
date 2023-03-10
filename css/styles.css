@@ -551,4 +551,15 @@ font-size: 3em;
   width: 35%;
 }
 
+.form-right {
+}
+
+.contact-section {
+  display: flex;
+
+  margin-bottom: 15em;
+}
+
+
+
 /* -------END OF Contact us HTML ----------- */
