@@ -557,7 +557,8 @@ font-size: 3em;
 .contact-section {
   display: flex;
 
-  margin-bottom: 15em;
+  margin-top: 5em;
+  margin-bottom: 20em;
 }
 
 
