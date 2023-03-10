@@ -73,7 +73,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   height: 100vh;
-  background-image: url(./assets/imgs/home-bg.jpg);
+  background-image: url(../assets/imgs/home-bg.jpg);
 }
 
 .hero h1, .hero p{
@@ -267,10 +267,8 @@ box-shadow: none;
 footer {
   height: 10em;
   background-color: var(--clr-accent);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  padding-top: 1.5em;
 }
 
 footer a {
@@ -314,7 +312,7 @@ about-faiza p {
 }
 
 .about-faiza img {
-  width: 100%;
+  width: 50%;
 }
 
 
@@ -331,7 +329,7 @@ about-faiza p {
 }
 
 .about-amna img {
-  width: 100%;
+  width: 50%;
   padding: 1em;
 }
 
@@ -370,7 +368,7 @@ about-faiza p {
 }
 
 .init-consult img {
-  width: 100%;
+  width: 50%;
 }
 
 .init-consult-text {
@@ -394,7 +392,7 @@ font-size: 3em;
 }
 
 .second-consult img {
-  width: 100%;
+  width: 50%;
 }
 
 .second-consult-text {
@@ -429,7 +427,7 @@ font-size: 3em;
 }
 
 .third-consult img {
-  width: 100%;
+  width: 50%;
 }
 
 .third-consult-text {
