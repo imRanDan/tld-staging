@@ -229,7 +229,7 @@ box-shadow: none;
 
 /* Contact */
 .contact {
-  background-image: url(/assets/imgs/contact-us-bg.avif);
+  background-image: url(../assets/imgs/contact-us-bg.avif);
   height: 25em;
   background-repeat: no-repeat;
   background-size: cover;
